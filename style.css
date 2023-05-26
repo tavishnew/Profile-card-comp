@@ -126,13 +126,15 @@ hr {
 }
 
 @media only screen and (max-width: 760px) {
-  .victor {
-    left: 200px;
+  .victor img{
+    right: 42%;
+
   }
 }
 
 @media only screen and (max-width: 400px) {
     .victor {
-      left: 130px;
+      bottom: 62%;
+      right: 42%;
     }
   }
