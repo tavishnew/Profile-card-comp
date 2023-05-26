@@ -125,3 +125,9 @@ hr {
     left: 200px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+    .victor {
+      left: 250px;
+    }
+  }
