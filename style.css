@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --Darkcyan: hsl(185, 75%, 39%);
+  --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+  --Darkgrayishblue: hsl(227, 10%, 46%);
+  --Darkgray: hsl(0, 0%, 59%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-color: var(--Darkcyan);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top -500px left -350px, top 250px right -300px;
+  background-blend-mode: overlay;
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 90vh;
+}
+
+.content {
+  background-color: white;
+  border-radius: 10px;
+  height: 100vh -1px;
+}
+
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.victor {
+  position: absolute;
+  top: 200px;
+  left: 580px;
+  height: 6rem;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.info {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  line-height: 2.5rem;
+}
+
+h4 {
+  font-weight: 700;
+  color: var(--Verydarkdesaturatedblue);
+}
+
+.info p {
+  font-weight: 400;
+  color: var(--Darkgrayishblue);
+}
+
+.london {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Verydarkdesaturatedblue);
+  margin-bottom: 2rem;
+}
+hr {
+  color: var(--Darkgray);
+  width: 100%;
+}
+
+.stat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.7rem 0 1.7rem 2.7rem;
+  column-gap: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.stat p {
+  font-size: 14px;
+  color: var(--Darkgrayishblue);
+  font-weight: 400;
+}
+
+.one {
+  padding-left: 10px;
+}
+
+.likes {
+  padding-left: 5px;
+}
+
+.two {
+  padding-left: 3px;
+}
+
+.attribution {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 760px) {
+  .victor {
+    left: 200px;
+  }
+}
