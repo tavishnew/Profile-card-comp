@@ -127,14 +127,14 @@ hr {
 
 @media only screen and (max-width: 760px) {
   .victor img{
-    right: 42%;
+    right: 42.5%;
 
   }
 }
 
 @media only screen and (max-width: 400px) {
     .victor {
-      bottom: 62%;
-      right: 42%;
+      bottom: 64%;
+      right: 42.5%;
     }
   }
